@@ -1,0 +1,134 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+    color: #4A4A4A;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header {
+    background-color: #F3F3F3;
+    padding: 20px 0;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4A4A4A;
+    font-size: 18px;
+}
+header nav a:hover {
+    color: #6B6B6B;
+}
+main {
+    padding: 60px 0;
+}
+main h2 {
+    color: #6B6B6B;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+main h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+.testimonial {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 600px;
+    margin: 40px auto;
+    position: relative;
+}
+.testimonial img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.testimonial p {
+    margin: 0;
+}
+.testimonial .name {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.testimonial .location {
+    color: #9B9B9B;
+}
+.testimonial .author {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    text-align: right;
+}
+.testimonial .author p {
+    margin: 0;
+}
+.subscribe {
+    background-color: #F3F3F3;
+    padding: 40px 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 60px;
+}
+.subscribe h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.subscribe input {
+    padding: 15px;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px 0 0 5px;
+    width: 50%;
+    max-width: 300px;
+}
+.subscribe button {
+    padding: 15px 30px;
+    background-color: #FF7F50;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+footer {
+    background-color: white;
+    padding: 40px 0;
+    border-top: 1px solid #E1E1E1;
+}
+footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+footer h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+footer ul li {
+    margin-bottom: 10px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #4A4A4A;
+}
+footer ul li a:hover {
+    color: #6B6B6B;
+}
